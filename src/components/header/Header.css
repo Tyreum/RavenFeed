@@ -1,0 +1,33 @@
+  .Header {
+    background-color: #101010;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .Logo {
+    src: local(Logo);
+    background-color: var(--primary-color);
+    width: 217px;
+    height: 40px; 
+    border-radius: 0px 20px 20px 0px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    line-height: 23px;
+    height: 40px;
+    text-align: center;
+    color: #000000;
+  }
+  
+  .Header input[type="text"]{
+    border-radius: 17px;
+    width: 260px;
+    height: 24px;
+    left: 653px;
+    top: 8px;
+    background: #202020;
+    border: 0;
+    text-align: start;
+    margin: 7px 10px;
+    padding: 0px 10px 0px 10px;
+    font-family: 'Roboto', sans-serif;
+  }
