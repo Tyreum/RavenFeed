@@ -1,20 +1,114 @@
+.card_position{
+    display: flex;
+    justify-content: center;
+}
+
 .card-post{
     border: 1px solid var(--secundary-color);
     color: white;
     width: 832px;
     height: 347px;
     padding: 5px;
+    margin: 15px;
     font-family: 'Roboto', sans-serif;
+}
+
+.post-user{
+    font-size: 60px;
+    display: flex;
+    margin-left: 50px;
+}
+
+.post-time{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.username{
+    display: flex;
+    flex-direction: column;
+    margin-top: -10px;
+}
+
+.post-text{
+    display: flex;
+    justify-content: start;
+    margin: -10px 0px 0px 60px;
+}
+
+.user-info{
+    display: flex;
 }
 
 .post-img{
     border: 1px solid var(--secundary-color);
     width: 720px;
     height: 185px;
-    margin: 56px 8px 56px 8px;
+    margin: 8px 56px 8px 56px;
 }
 
 .post-detail{
     width: 720px;
-    justify-content: space-between
+    justify-content: space-around;
 }
+
+.btn-flexpost{
+    display: flex;
+    margin-right: -115px;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+
+
+
+
+
+/* HOVER */
+
+.btncomment{
+    width: 36px;
+    height: 36px;
+}
+
+.btncomment:hover{
+    background-image: url('./comment_red.png');
+}
+
+
+.btnloop{
+    width: 36px;
+    height: 36px;
+}
+
+.btnloop:hover{
+    background-image: url('./loop_red.png');
+}
+
+
+.btngrade{
+    width: 36px;
+    height: 36px;
+}
+
+.btngrade:hover{
+    background-image: url('./grade_red.png');
+}
+
+.btngrade:active {
+    background-image: url('./grade_full_red.png');
+  }
+
+.btngrade:visited {
+    background-image: url('./grade_full_red.png');
+  }  
+
+
+.btnshare{
+    width: 36px;
+    height: 36px;
+}
+
+.btnshare:hover{
+    background-image: url('./share_red.png');
+}
+

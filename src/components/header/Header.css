@@ -1,23 +1,24 @@
+
   .Header {
     background-color: #101010;
     display: flex;
-    justify-content: space-between;
   }
   
   .Logo {
     src: local(Logo);
     background-color: var(--primary-color);
-    width: 217px;
+    width: 230px;
     height: 40px; 
     border-radius: 0px 20px 20px 0px;
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
-    line-height: 23px;
-    height: 40px;
-    text-align: center;
     color: #000000;
+    margin-left: -15px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
   }
-  
+
   .Header input[type="text"]{
     border-radius: 17px;
     width: 260px;
@@ -27,7 +28,18 @@
     background: #202020;
     border: 0;
     text-align: start;
-    margin: 7px 10px;
+    margin: 7px 10px 0px 1300px;
     padding: 0px 10px 0px 10px;
     font-family: 'Roboto', sans-serif;
+    color: whitesmoke;
+  }
+
+  ::placeholder{
+    font-family: 'Material Icons';
+    font-size: 20px;
+  }
+
+  .UserIcon{
+    font-size: 35px;
+    color: #404040;
   }
