@@ -1,20 +1,25 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import {BrowserRouter, Switch, Route, Link, NavLink} from 'react-router-dom'
 
 import Header from './components/header/index'
-import Card from './components/cardPost/index'
+import Home from './pages/homePage/Home'
+import Profile from './pages/profile/Profile'
 
 function App() {
   return (
     <div className="App">
       <Header/>
-      <Card/>
-      <Card/>
-      <Card/>
-      <Card/>
-      <Card/>
-      <Card/>
+      <BrowserRouter>
+        <NavLink to="/homePage">Home</NavLink>
+        <NavLink to="/profile">Profile</NavLink>
+        <Switch>
+          <Route exact path="/" component={Home}/>
+          <Route path="/homePage" component={Home}/>
+          <Route path="/homePage" component={Profile}/>
+        </Switch>
+      </BrowserRouter>
     </div>
   );
 }

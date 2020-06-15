@@ -1,0 +1,10 @@
+.title{
+    font-family: Roboto;
+    color: var(--primary-color);
+}
+
+.text{
+    font-family: Roboto;
+    color: whitesmoke;
+    margin: 10px;
+}
