@@ -12,8 +12,10 @@ function App() {
     <div className="App">
       <Header/>
       <BrowserRouter>
-        <NavLink to="/homePage">Home</NavLink>
-        <NavLink to="/profile">Profile</NavLink>
+        <div className="Navbar">
+          <NavLink className="icons" to="/homePage">home</NavLink>
+          <NavLink className="icons" to="/profile">person</NavLink>
+        </div>
         <Switch>
           <Route exact path="/" component={Home}/>
           <Route path="/homePage" component={Home}/>
