@@ -9,7 +9,7 @@ export default function Profile(){
                 <div class="col-lg-8">
                     <div class="panel profile-cover">
                         <div class="profile-cover__img">
-                            <img src="https://bootdey.com/img/Content/avatar/avatar6.png" alt="" />
+                            <img src="https://i.pinimg.com/originals/ff/8f/4f/ff8f4f855599bf585b513c5378c6fb86.jpg" alt="" />
                             <h3 class="h3">Henry Foster</h3>
                         </div>
                         <div class="profile-cover__action bg--img" data-overlay="0.3">
