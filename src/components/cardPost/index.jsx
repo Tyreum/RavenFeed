@@ -29,10 +29,10 @@ export default function CardPost(){
                 <div className="post-img"></div>
                 <div className="post-detail">
                     <div className='btn-flexpost'>
-                        <button href="#"><img className='btncomment' src={comment} alt="Comment"/></button>
-                        <button href="#"><img className='btnloop' src={loop} alt="Loop"/></button>
-                        <button href="#"><img className='btngrade' src={grade} alt="Grade"/></button>
-                        <button href="#"><img className='btnshare' src={share} alt="Share"/></button>
+                        <button className='button'><img className='btncomment' src={comment} alt="Comment"/></button>
+                        <button className='button'><img className='btnloop' src={loop} alt="Loop"/></button>
+                        <button className='button'><img className='btngrade' src={grade} alt="Grade"/></button>
+                        <button className='button'><img className='btnshare' src={share} alt="Share"/></button>
                     </div>
                 </div>
             </div>
