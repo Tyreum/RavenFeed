@@ -68,52 +68,8 @@
     outline:none;
 }
 
-/* HOVER */
-
-.btncomment{
-    width: 36px;
-    height: 36px;
-}
-
-.btncomment:hover{
-    background-image: url('./comment_red.png');
-}
-
-
-.btnloop{
-    width: 36px;
-    height: 36px;
-}
-
-.btnloop:hover{
-    background-image: url('./loop_red.png');
-}
-
-
-.btngrade{
-    width: 36px;
-    height: 36px;
-}
-
-.btngrade:hover{
-    background-image: url('./grade_red.png');
-}
 
 .btngrade:active {
     background-image: url('./grade_full_red.png');
   }
-
-.btngrade:visited {
-    background-image: url('./grade_full_red.png');
-  }  
-
-
-.btnshare{
-    width: 36px;
-    height: 36px;
-}
-
-.btnshare:hover{
-    background-image: url('./share_red.png');
-}
 
