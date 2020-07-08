@@ -15,24 +15,24 @@ export default function CardPost(){
         <div className='card_position'>
             <div className='card-post'>
                 <div className='post-time'>
-                    <span className="material-icons" >expand_more</span>
+                    <button className="material-icons button" >expand_more</button>
                     <span>10m</span>
-                </div>   
+                </div>
                 <div className='user-info'>
                     <span className="material-icons post-user">account_box</span>
                     <div className='username'>
                         <h3>Nome</h3>
                         <h5 style={{marginTop: "-20px"}}>@Nome</h5>
                     </div>
-                </div>     
+                </div>
                 <p className='post-text'>Loren Ipsum</p>
                 <div className="post-img"></div>
                 <div className="post-detail">
                     <div className='btn-flexpost'>
-                        <a href="#"><img className='btncomment' src={comment} alt="Comment"/></a>
-                        <a href="#"><img className='btnloop' src={loop} alt="Loop"/></a>
-                        <a href="#"><img className='btngrade' src={grade} alt="Grade"/></a>
-                        <a href="#"><img className='btnshare' src={share} alt="Share"/></a>
+                        <button href="#"><img className='btncomment' src={comment} alt="Comment"/></button>
+                        <button href="#"><img className='btnloop' src={loop} alt="Loop"/></button>
+                        <button href="#"><img className='btngrade' src={grade} alt="Grade"/></button>
+                        <button href="#"><img className='btnshare' src={share} alt="Share"/></button>
                     </div>
                 </div>
             </div>
