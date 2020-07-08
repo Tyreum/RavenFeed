@@ -4,13 +4,19 @@ import Card from '../../components/cardPost/index'
 
 export default function Home(){
     return(
-        <div className="content">
-            <Card/>
-            <Card/>
-            <Card/>
-            <Card/>
-            <Card/>
-            <Card/>
+        <div className="content container">
+                <Card/>
+                <Card/>
+                <Card/>
+                <Card/>
+                <Card/>
+                <Card/>
+                <Card/>
+                <Card/>
+                <Card/>
+                <Card/>
+                <Card/>
+                <Card/>
         </div>
     );
 }
