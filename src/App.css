@@ -4,18 +4,11 @@
 .App {
   text-align: center;
   background-color: #252525;
-  min-height: 100vh;
+  min-height: 100%;
 
   --primary-color: #BF1313;
   --secundary-color: #404040;
   --background-color: #252525;
-}
-
-.Navbar{
-  color: whitesmoke;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
 }
 
 .icons{
@@ -25,3 +18,27 @@
   font-family: 'Material Icons';
 }
 
+/* NavBar */
+
+.Navbar{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 15%;
+  height: 100%;
+}
+
+/* NavBar Links */
+.Navbar a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+}
+
+/* NavBar hover */
+
+.Navbar a:hover{
+  color: #c4c4c4;
+}

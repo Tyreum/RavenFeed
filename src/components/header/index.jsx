@@ -7,8 +7,8 @@ export default function Header(props){
         <div className="Header">
             <div className="Logo"><img src={logo} width="40px" height="40px"/>RavenFeed</div>
             <input type="text" name="search" id="search" placeholder="search"></input>
-            <span className="material-icons UserIcon">account_box</span>
-            <span className="material-icons UserIcon" >expand_more</span>
+            <button className="material-icons UserIcon button">account_box</button>
+            <button className="material-icons UserIcon button" >expand_more</button>
         </div>
     )
 }

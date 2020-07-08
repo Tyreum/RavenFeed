@@ -18,6 +18,7 @@ function App() {
           <NavLink className="icons" to="/profile">person</NavLink>
           <NavLink className="icons" to="/chat">chat</NavLink>
         </div>
+        
         <Switch>
           <Route exact path="/" component={Home}/>
           <Route path="/homePage" component={Home}/>
